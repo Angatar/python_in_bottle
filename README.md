@@ -12,7 +12,7 @@ Docker hub repository: https://hub.docker.com/r/d3fk/python_in_bottle/
 
 For example, if you need to run a web app you could use it this way:
 
-`docker run -itd --rm -p 80:80 -v $(pwd)/myapp:/usr/src/myapp -w /usr/src/myapp d3fk/python_in_bottle:latest python your-python-script.py`
+`docker run -itd -p 80:80 -v $(pwd)/myapp:/usr/src/myapp -w /usr/src/myapp d3fk/python_in_bottle:latest python your-python-script.py`
 
 Then go to your browser at http://localhost  to see your web app running
 
