@@ -2,7 +2,7 @@
 A Simple docker python:latest container (ie: python3) completed by Bottle and Requests libraries that serves to run web python apps easily.
 
 ## Docker image
-image name d3fk/python_in_bottle
+image name **d3fk/python_in_bottle**
 
 `docker pull d3fk/python_in_bottle`
 
