@@ -19,7 +19,7 @@ Then go to your browser at http://localhost  to see your web app running
 ## Example Script 
 
 Here is a small "Hello World" example using the Bottle Web Framework
->your-python-script.py
+>[your-python-script.py](https://github.com/Angatar/python_in_bottle/blob/master/your-python-script.py)
 
 
 ```
