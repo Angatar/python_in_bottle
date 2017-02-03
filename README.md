@@ -1,6 +1,13 @@
 # python_in_bottle
 A Simple docker python:latest container (ie: python3) completed by Bottle and Requests libraries that serves to run web python apps easily.
 
+## Docker image
+image name d3fk/python_in_bottle
+
+`docker pull d3fk/python_in_bottle`
+
+Docker hub repository: https://hub.docker.com/r/d3fk/python_in_bottle/
+
 ## Run it
 
 For example, if you need to run a web app you could use it this way:
@@ -30,4 +37,5 @@ run(host='0.0.0.0', port=80, debug=True)
 ## More info
 
 More details on the Bottle Web Framework here: https://bottlepy.org
+
 More details on the Requests python library here: http://docs.python-requests.org
