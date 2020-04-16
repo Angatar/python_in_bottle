@@ -1,7 +1,9 @@
-# python_in_bottle
+# python in bottle (d3fk/python_in_bottle)
 A Simple docker python:alpine container (ie: python 3 latest) completed by Bottle and Requests libraries that serves to run web python apps easily (Total size of the container: env 98MB).
 
 ## Docker image
+pre-build from Docker hub with "automated build" option.
+
 image name **d3fk/python_in_bottle**
 
 `docker pull d3fk/python_in_bottle`
