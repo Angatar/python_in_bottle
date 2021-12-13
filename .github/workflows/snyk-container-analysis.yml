@@ -47,6 +47,10 @@ jobs:
       with:
         name: SARIF
         path: .github/workflows/sarif/snyk.sarif
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Snyk JSON output
+        path: .github/workflows/sarif/snyk.json
     - name: Upload result to GitHub Code Scanning
       uses: github/codeql-action/upload-sarif@v1
       with:
