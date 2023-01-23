@@ -2,7 +2,7 @@
 
 
 # python in bottle (d3fk/python_in_bottle)
-A Simple docker python:alpine multi-arch container image (ie: python 3) completed by Bottle and Requests libraries that serves to run web python apps easily (Total size of the container: [![Docker Image Size](https://badgen.net/docker/size/d3fk/python_in_bottle/latest?icon=docker&label=compressed)]).
+A simple Python 3 in a docker Alpine linux multi-arch container image completed by Bottle and Requests libraries that serves to run web python apps easily (Total size of the container: [![Docker Image Size](https://badgen.net/docker/size/d3fk/python_in_bottle/latest?icon=docker&label=compressed)](https://hub.docker.com/r/d3fk/python_in_bottle/tags)).
 
 ## Docker image
 Pre-build as multi-arch image from Docker hub with "automated build" option.
@@ -20,8 +20,8 @@ Docker hub repository: https://hub.docker.com/r/d3fk/python_in_bottle/
 
 This image is provided with 2 TAGS wich are both multi-arch images:
 
-- **d3fk/python_in_bottle:latest**: is a multi-arch image that is regularly updated for python 3 and Alpine linux versions including packages security fixes.
-- **d3fk/python_in_bottle:stable**: is a multi-arch image with fixed versions python 3.11 in an Alpine 3.17. This image had a stable behaviour observed in production, so that it was freezed in a release of the code repo and built from the Docker hub by automated build.It won't be changed or rebuilt in the future (the code is available from the "releases" section of this [image code repository on GitHub](https://github.com/Angatar/python_in_bottle)).
+- **d3fk/python_in_bottle:latest**: is a multi-arch image that is regularly updated for python 3 and Alpine linux versions including packages & security fixes.
+- **d3fk/python_in_bottle:stable**: is a multi-arch image with fixed versions, i.e. python 3.11 in an Alpine 3.17. This image had a stable behaviour observed in production, so that it was freezed in a release of the code repo and built from the Docker hub by automated build. It won't be changed or rebuilt in the future (the code is available from the "releases" section of this [image code repository on GitHub](https://github.com/Angatar/python_in_bottle)).
 
 
 *These multi-arch images will fit most of architectures:*
@@ -66,5 +66,6 @@ More details on the Bottle Web Framework here: https://bottlepy.org
 
 More details on the Requests python library here: http://docs.python-requests.org
 
+## License
 
-[![GitHub license](https://img.shields.io/github/license/Angatar/python_in_bottle)](https://github.com/Angatar/python_in_bottle/blob/master/LICENSE)
+The content of this [GitHub code repository](https://github.com/Angatar/python_in_bottle) is provided under **MIT** licence [![GitHub license](https://img.shields.io/github/license/Angatar/python_in_bottle)](https://github.com/Angatar/python_in_bottle/blob/master/LICENSE). For the embeded libraries and packages please see the related licenses information on their respective official repositories.
