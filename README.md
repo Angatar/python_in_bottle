@@ -1,14 +1,38 @@
+[![Docker Pulls](https://badgen.net/docker/pulls/d3fk/python_in_bottle?icon=docker&label=pulls)](https://hub.docker.com/r/d3fk/python_in_bottle/tags) [![Docker Image Size](https://badgen.net/docker/size/d3fk/python_in_bottle/latest?icon=docker&label=image%20size)](https://hub.docker.com/r/d3fk/python_in_bottle/tags) [![Docker build](https://img.shields.io/docker/cloud/automated/d3fk/python_in_bottle?label=build&logo=docker)](https://hub.docker.com/r/d3fk/python_in_bottle/tags) [![Build status](https://img.shields.io/docker/cloud/build/d3fk/python_in_bottle?label=build%20status&logo=docker)](https://hub.docker.com/r/d3fk/python_in_bottle/builds) [![Docker Stars](https://badgen.net/docker/stars/d3fk/python_in_bottle?icon=docker&label=stars&color=green)](https://hub.docker.com/r/d3fk/python_in_bottle) [![Github Stars](https://img.shields.io/github/stars/Angatar/python_in_bottle?label=stars&logo=github&color=green)](https://github.com/Angatar/python_in_bottle) [![Github forks](https://img.shields.io/github/forks/Angatar/python_in_bottle?logo=github)](https://github.com/Angatar/python_in_bottle/fork) [![Github open issues](https://img.shields.io/github/issues-raw/Angatar/python_in_bottle?logo=github&color=yellow)](https://github.com/Angatar/python_in_bottle/issues) [![Github closed issues](https://img.shields.io/github/issues-closed-raw/Angatar/python_in_bottle?logo=github&color=green)](https://github.com/Angatar/python_in_bottle/issues?q=is%3Aissue+is%3Aclosed) [![GitHub license](https://img.shields.io/github/license/Angatar/python_in_bottle)](https://github.com/Angatar/python_in_bottle/blob/master/LICENSE)
+
+
 # python in bottle (d3fk/python_in_bottle)
-A Simple docker python:alpine container (ie: python 3 latest) completed by Bottle and Requests libraries that serves to run web python apps easily (Total size of the container: env 98MB).
+A Simple docker python:alpine multi-arch container image (ie: python 3) completed by Bottle and Requests libraries that serves to run web python apps easily (Total size of the container: [![Docker Image Size](https://badgen.net/docker/size/d3fk/python_in_bottle/latest?icon=docker&label=compressed)]).
 
 ## Docker image
-pre-build from Docker hub with "automated build" option.
+Pre-build as multi-arch image from Docker hub with "automated build" option.
 
 image name **d3fk/python_in_bottle**
 
 `docker pull d3fk/python_in_bottle`
 
 Docker hub repository: https://hub.docker.com/r/d3fk/python_in_bottle/
+
+[![DockerHub Badge](https://lucky-red-wombat.cyclic.app/image/d3fk/python_in_bottle)](https://hub.docker.com/r/d3fk/python_in_bottle)
+
+
+### Image TAGS
+
+This image is provided with 2 TAGS wich are both multi-arch images:
+
+- **d3fk/python_in_bottle:latest**: is a multi-arch image that is regularly updated for python 3 and Alpine linux versions including packages security fixes.
+- **d3fk/python_in_bottle:stable**: is a multi-arch image with fixed versions python 3.11 in an Alpine 3.17. This image had a stable behaviour observed in production, so that it was freezed in a release of the code repo and built from the Docker hub by automated build.It won't be changed or rebuilt in the future (the code is available from the "releases" section of this [image code repository on GitHub](https://github.com/Angatar/python_in_bottle)).
+
+
+*These multi-arch images will fit most of architectures:*
+
+- *linux/amd64*
+- *linux/386*
+- *linux/arm/v6*
+- *linux/arm/v7*
+- *linux/arm64/v8*
+- *linux/ppc64le*
+- *linux/s390x*
 
 ## Run it
 
@@ -41,3 +65,6 @@ run(host='0.0.0.0', port=80, debug=True)
 More details on the Bottle Web Framework here: https://bottlepy.org
 
 More details on the Requests python library here: http://docs.python-requests.org
+
+
+[![GitHub license](https://img.shields.io/github/license/Angatar/python_in_bottle)](https://github.com/Angatar/python_in_bottle/blob/master/LICENSE)
