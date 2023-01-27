@@ -18,11 +18,11 @@ Docker hub repository: https://hub.docker.com/r/d3fk/python_in_bottle/
 
 ### Image TAGS
 
-This image is provided with 2 TAGS wich are both multi-arch images:
+This image is provided with 3 TAGS wich are all multi-arch images:
 
 - **d3fk/python_in_bottle:latest**: is a multi-arch image that is regularly updated for python 3 and Alpine linux versions including packages & security fixes.
 - **d3fk/python_in_bottle:stable**: is a multi-arch image with fixed versions, i.e. python 3.11 in an Alpine 3.17. This image had a stable behaviour observed in production, so that it was freezed in a release of the code repo and built from the Docker hub by automated build. It won't be changed or rebuilt in the future (the code is available from the "releases" section of this [image code repository on GitHub](https://github.com/Angatar/python_in_bottle)).
-
+- **d3fk/python_in_bottle:gcc**: is a multi-arch image that corresponds to the "latest" image + gcc and libc packages installed for those who need them as build dependencies. It is regularly updated for python 3 and Alpine linux versions including packages & security fixes.
 
 *These multi-arch images will fit most of architectures:*
 
